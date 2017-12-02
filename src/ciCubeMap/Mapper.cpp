@@ -1,5 +1,5 @@
 #include "cinder/ImageIo.h"
-#include "Mapper.h"
+#include "ciCubeMap/Mapper.h"
 
 using namespace ci;
 using namespace ci::CubeMap;
