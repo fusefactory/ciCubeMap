@@ -1,0 +1,4 @@
+/Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/CMakeFiles/ciCubeMap.dir
+/Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/CMakeFiles/GridApp.dir
+/Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/CMakeFiles/ZERO_CHECK.dir

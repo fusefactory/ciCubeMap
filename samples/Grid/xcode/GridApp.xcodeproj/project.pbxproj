@@ -1,0 +1,893 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		069E4F9A09E644B2869D6E7E /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6F102C52AE4F4B79828E7C5B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				54AFF96A6CD94016A96C1EDB /* CMake Rules */,
+			);
+			dependencies = (
+				9C33FCCD4C804983ACCA3D94 /* PBXTargetDependency */,
+				275123EC1E3B4455A10336BB /* PBXTargetDependency */,
+				33F4688E7ED74B85971AA882 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		EDE550115F774958A7742484 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 41A43C1E6D414BD58F10112F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1B68E623E99741108157FAB7 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		113C25FF2517440A9DC2967D /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/CMakeFiles/GridApp.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = D90C33CBCD18481983324772 /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/CMakeFiles/GridApp.dir/Info.plist */; };
+		16346449D21948BAA54564AC /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/src/GridApp.cpp */ = {isa = PBXBuildFile; fileRef = 2081FB922B1A4704A6B6E68E /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/src/GridApp.cpp */; };
+		2D62C03139224FA790F1D1A0 /* /Users/mark/code/cinder_master/blocks/ciCubeMap/src/ciCubeMap/Mapper.cpp */ = {isa = PBXBuildFile; fileRef = 1EA2C810C66E4850A1454B0C /* /Users/mark/code/cinder_master/blocks/ciCubeMap/src/ciCubeMap/Mapper.cpp */; };
+		5291D51234A84FEC81A8FD7E /* /Users/mark/code/cinder_master/samples/data/CinderApp.icns */ = {isa = PBXBuildFile; fileRef = 8685F16537234300A3205392 /* /Users/mark/code/cinder_master/samples/data/CinderApp.icns */; };
+		5841F8D9E6BC4D64BA642282 /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/proj/cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = ACB842E5AC20486894923FE5 /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/proj/cmake/CMakeLists.txt */; };
+		DE457DB341E54BCBA6FE3606 /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/proj/cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 91EE821DF7C64F2981166574 /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/proj/cmake/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		30337C73C2EB44588200DF3F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		884EBAF734D746079C1492FB /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		986E841506B94026872CEDEA /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		EFEAE924D7894BBDB4319974 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		275E0823E92047549C51D596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058389ED149A4438B8069410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE550115F774958A7742484;
+			remoteInfo = ZERO_CHECK;
+		};
+		2BD84ABA622948A1A0D0AB10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058389ED149A4438B8069410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE550115F774958A7742484;
+			remoteInfo = ZERO_CHECK;
+		};
+		3A1F1D4BCF39476A9A933082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058389ED149A4438B8069410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A7E3535145A43BEBC7814DC;
+			remoteInfo = ciCubeMap;
+		};
+		72353B6CBBD7412D8A36BA87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058389ED149A4438B8069410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE550115F774958A7742484;
+			remoteInfo = ZERO_CHECK;
+		};
+		B5E78E375A3F40BA958A77AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058389ED149A4438B8069410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A7E3535145A43BEBC7814DC;
+			remoteInfo = ciCubeMap;
+		};
+		CEBFDF59DDA9445BA9FD3BA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058389ED149A4438B8069410 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E7F48C93F34EB7904D7748;
+			remoteInfo = GridApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D76DED9A8694047B993B750 /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/proj/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1D4F2BA108174EF1AC7C67FD /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/proj/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1EA2C810C66E4850A1454B0C /* /Users/mark/code/cinder_master/blocks/ciCubeMap/src/ciCubeMap/Mapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Mapper.cpp; path = ../../../../src/ciCubeMap/Mapper.cpp; sourceTree = SOURCE_ROOT; };
+		2081FB922B1A4704A6B6E68E /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/src/GridApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GridApp.cpp; path = ../../src/GridApp.cpp; sourceTree = SOURCE_ROOT; };
+		8685F16537234300A3205392 /* /Users/mark/code/cinder_master/samples/data/CinderApp.icns */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = CinderApp.icns; path = ../../../../../../samples/data/CinderApp.icns; sourceTree = SOURCE_ROOT; };
+		91EE821DF7C64F2981166574 /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/proj/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A429B717AB9F46D0AECDA6E4 /* ciCubeMap */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libciCubeMap.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E1FC0EF3CE4BDCA81F0D14 /* GridApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = GridApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB842E5AC20486894923FE5 /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/proj/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D90C33CBCD18481983324772 /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/CMakeFiles/GridApp.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = ../../xcode/CMakeFiles/GridApp.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		06A13A51C4024E46BE0F592E /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				4002B9B397CC490FB2677148 /* CMake Rules */,
+				1D4F2BA108174EF1AC7C67FD /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/proj/cmake/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		156042E30FFF447B86ED9B52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D90C33CBCD18481983324772 /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/CMakeFiles/GridApp.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		347691DFC40645E79FAFC34C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EA2C810C66E4850A1454B0C /* /Users/mark/code/cinder_master/blocks/ciCubeMap/src/ciCubeMap/Mapper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4002B9B397CC490FB2677148 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		43239DE0C22647599ECB031B = {
+			isa = PBXGroup;
+			children = (
+				9BC602CC6A2D40FF86E4F1E2 /* ciCubeMap */,
+				D49E2454679D464EBEEA308E /* GridApp */,
+				90F56A08CF154B7EA414BF55 /* ALL_BUILD */,
+				06A13A51C4024E46BE0F592E /* ZERO_CHECK */,
+				A88134517F1A4A8FB4731065 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		522B259BA5934455B2ED5D34 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		90F56A08CF154B7EA414BF55 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				522B259BA5934455B2ED5D34 /* CMake Rules */,
+				0D76DED9A8694047B993B750 /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/proj/cmake/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9BC602CC6A2D40FF86E4F1E2 /* ciCubeMap */ = {
+			isa = PBXGroup;
+			children = (
+				347691DFC40645E79FAFC34C /* Source Files */,
+				91EE821DF7C64F2981166574 /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/proj/cmake/CMakeLists.txt */,
+			);
+			name = ciCubeMap;
+			sourceTree = "<group>";
+		};
+		A88134517F1A4A8FB4731065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5E1FC0EF3CE4BDCA81F0D14 /* GridApp */,
+				A429B717AB9F46D0AECDA6E4 /* ciCubeMap */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF23FF68CDC49E286F75D74 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2081FB922B1A4704A6B6E68E /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/src/GridApp.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D49E2454679D464EBEEA308E /* GridApp */ = {
+			isa = PBXGroup;
+			children = (
+				BDF23FF68CDC49E286F75D74 /* Source Files */,
+				156042E30FFF447B86ED9B52 /* Resources */,
+				ACB842E5AC20486894923FE5 /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/proj/cmake/CMakeLists.txt */,
+				8685F16537234300A3205392 /* /Users/mark/code/cinder_master/samples/data/CinderApp.icns */,
+			);
+			name = GridApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A7E3535145A43BEBC7814DC /* ciCubeMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 695DB0DA9FF1455E967BB629 /* Build configuration list for PBXNativeTarget "ciCubeMap" */;
+			buildPhases = (
+				1FE21D0E670740F291072A8C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				974D5CD6217E41EC9D517EC2 /* PBXTargetDependency */,
+			);
+			name = ciCubeMap;
+			productName = ciCubeMap;
+			productReference = A429B717AB9F46D0AECDA6E4 /* ciCubeMap */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C7E7F48C93F34EB7904D7748 /* GridApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59C73110CF464D46A3AF286F /* Build configuration list for PBXNativeTarget "GridApp" */;
+			buildPhases = (
+				70BF8C2CB86C4BB5844F3516 /* Resources */,
+				C9C026726D8F4A03B6851649 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72A8E6BC86E54D41B82CF0DE /* PBXTargetDependency */,
+				502FFFFD16B94C81BD1D5AFA /* PBXTargetDependency */,
+			);
+			name = GridApp;
+			productName = GridApp;
+			productReference = A5E1FC0EF3CE4BDCA81F0D14 /* GridApp */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		058389ED149A4438B8069410 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0910;
+			};
+			buildConfigurationList = DC19EE02E8FC4DF5A1C36B28 /* Build configuration list for PBXProject "GridApp" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				884EBAF734D746079C1492FB /* Debug */,
+				EFEAE924D7894BBDB4319974 /* Release */,
+				30337C73C2EB44588200DF3F /* MinSizeRel */,
+				986E841506B94026872CEDEA /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 43239DE0C22647599ECB031B;
+			projectDirPath = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/proj/cmake;
+			projectRoot = "";
+			targets = (
+				069E4F9A09E644B2869D6E7E /* ALL_BUILD */,
+				C7E7F48C93F34EB7904D7748 /* GridApp */,
+				EDE550115F774958A7742484 /* ZERO_CHECK */,
+				8A7E3535145A43BEBC7814DC /* ciCubeMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B68E623E99741108157FAB7 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode -f /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		54AFF96A6CD94016A96C1EDB /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode -f /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		BF1FD5ABA45F43ABB1A3AEC9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EA7ABE577B97418AAF19B698 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70BF8C2CB86C4BB5844F3516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5291D51234A84FEC81A8FD7E /* /Users/mark/code/cinder_master/samples/data/CinderApp.icns */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FE21D0E670740F291072A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D62C03139224FA790F1D1A0 /* /Users/mark/code/cinder_master/blocks/ciCubeMap/src/ciCubeMap/Mapper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C026726D8F4A03B6851649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16346449D21948BAA54564AC /* /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/src/GridApp.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		275123EC1E3B4455A10336BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7E7F48C93F34EB7904D7748 /* GridApp */;
+			targetProxy = CEBFDF59DDA9445BA9FD3BA8 /* PBXContainerItemProxy */;
+		};
+		33F4688E7ED74B85971AA882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE550115F774958A7742484 /* ZERO_CHECK */;
+			targetProxy = 72353B6CBBD7412D8A36BA87 /* PBXContainerItemProxy */;
+		};
+		502FFFFD16B94C81BD1D5AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE550115F774958A7742484 /* ZERO_CHECK */;
+			targetProxy = 2BD84ABA622948A1A0D0AB10 /* PBXContainerItemProxy */;
+		};
+		72A8E6BC86E54D41B82CF0DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A7E3535145A43BEBC7814DC /* ciCubeMap */;
+			targetProxy = 3A1F1D4BCF39476A9A933082 /* PBXContainerItemProxy */;
+		};
+		974D5CD6217E41EC9D517EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE550115F774958A7742484 /* ZERO_CHECK */;
+			targetProxy = 275E0823E92047549C51D596 /* PBXContainerItemProxy */;
+		};
+		9C33FCCD4C804983ACCA3D94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A7E3535145A43BEBC7814DC /* ciCubeMap */;
+			targetProxy = B5E78E375A3F40BA958A77AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		018EA6D6E1C74D1EBC77DA4B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		045AD264B49B464293039D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		137D4EDB8BE34B67B8F2B8C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1F0E54084C8E4341B670A5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/build;
+			};
+			name = Debug;
+		};
+		345D5C55FB9F41AEA4DAE61D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY,FT_DEBUG_LEVEL_TRACE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mark/code/cinder_master/blocks/ciCubeMap/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ciCubeMap;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/mark/code/cinder_master/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		35D6C3872B9041F6900ABC23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3CED1CFB80A94AE69289815E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/build;
+			};
+			name = Release;
+		};
+		5AC5CF05F7DC4AD2A913E19A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/GridApp/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY,FT_DEBUG_LEVEL_TRACE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mark/code/cinder_master/blocks/ciCubeMap/include);
+				INFOPLIST_FILE = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/CMakeFiles/GridApp.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mark/code/cinder_master/lib/macosx/Debug/libcinder.a /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/Debug/libciCubeMap.a /Users/mark/code/cinder_master/lib/macosx/Debug/libcinder.a /Users/mark/code/cinder_master/lib/macosx/libboost_system.a /Users/mark/code/cinder_master/lib/macosx/libboost_filesystem.a -framework Cocoa -framework OpenGL -framework AudioToolbox -framework AVFoundation -framework AudioUnit -framework CoreAudio -framework CoreMedia -framework CoreVideo -framework Accelerate -framework IOSurface -framework IOKit";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GridApp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/mark/code/cinder_master/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		879E42EEE0BC4ED88EE443E2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		8D8930DA5005475FA2D4F3A7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/GridApp/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY,FT_DEBUG_LEVEL_TRACE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mark/code/cinder_master/blocks/ciCubeMap/include);
+				INFOPLIST_FILE = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/CMakeFiles/GridApp.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mark/code/cinder_master/lib/macosx/Debug/libcinder.a /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/RelWithDebInfo/libciCubeMap.a /Users/mark/code/cinder_master/lib/macosx/Debug/libcinder.a /Users/mark/code/cinder_master/lib/macosx/libboost_system.a /Users/mark/code/cinder_master/lib/macosx/libboost_filesystem.a -framework Cocoa -framework OpenGL -framework AudioToolbox -framework AVFoundation -framework AudioUnit -framework CoreAudio -framework CoreMedia -framework CoreVideo -framework Accelerate -framework IOSurface -framework IOKit";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GridApp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/mark/code/cinder_master/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		97AA5ABE4E724580884BD49B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/GridApp/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY,FT_DEBUG_LEVEL_TRACE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mark/code/cinder_master/blocks/ciCubeMap/include);
+				INFOPLIST_FILE = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/CMakeFiles/GridApp.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mark/code/cinder_master/lib/macosx/Debug/libcinder.a /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/MinSizeRel/libciCubeMap.a /Users/mark/code/cinder_master/lib/macosx/Debug/libcinder.a /Users/mark/code/cinder_master/lib/macosx/libboost_system.a /Users/mark/code/cinder_master/lib/macosx/libboost_filesystem.a -framework Cocoa -framework OpenGL -framework AudioToolbox -framework AVFoundation -framework AudioUnit -framework CoreAudio -framework CoreMedia -framework CoreVideo -framework Accelerate -framework IOSurface -framework IOKit";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GridApp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/mark/code/cinder_master/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9BCDC512225D4FADA7BB975F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AC29D114985C4B7CB3C3B95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY,FT_DEBUG_LEVEL_TRACE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mark/code/cinder_master/blocks/ciCubeMap/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ciCubeMap;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/mark/code/cinder_master/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BD6217BC73F745D5AE226172 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY,FT_DEBUG_LEVEL_TRACE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mark/code/cinder_master/blocks/ciCubeMap/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ciCubeMap;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/mark/code/cinder_master/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CDED790E5C5C4A1DBA4102B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY,FT_DEBUG_LEVEL_TRACE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mark/code/cinder_master/blocks/ciCubeMap/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ciCubeMap;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/mark/code/cinder_master/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E917A7A717E5452983DBE7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/GridApp/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY,FT_DEBUG_LEVEL_TRACE);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mark/code/cinder_master/blocks/ciCubeMap/include);
+				INFOPLIST_FILE = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/CMakeFiles/GridApp.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/mark/code/cinder_master/lib/macosx/Debug/libcinder.a /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/Release/libciCubeMap.a /Users/mark/code/cinder_master/lib/macosx/Debug/libcinder.a /Users/mark/code/cinder_master/lib/macosx/libboost_system.a /Users/mark/code/cinder_master/lib/macosx/libboost_filesystem.a -framework Cocoa -framework OpenGL -framework AudioToolbox -framework AVFoundation -framework AudioUnit -framework CoreAudio -framework CoreMedia -framework CoreVideo -framework Accelerate -framework IOSurface -framework IOKit";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GridApp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode;
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/mark/code/cinder_master/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EE7449CC63C543F6A495DFE3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EFD42EFC9BCF4F6FAC1D3636 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F69B116A719B4320BFBEF9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F8F8B1F19BE64AD7AB228BFD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/mark/code/cinder_master/blocks/ciCubeMap/samples/Grid/xcode/build;
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41A43C1E6D414BD58F10112F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045AD264B49B464293039D90 /* Debug */,
+				F69B116A719B4320BFBEF9AA /* Release */,
+				EFD42EFC9BCF4F6FAC1D3636 /* MinSizeRel */,
+				018EA6D6E1C74D1EBC77DA4B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		59C73110CF464D46A3AF286F /* Build configuration list for PBXNativeTarget "GridApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC5CF05F7DC4AD2A913E19A /* Debug */,
+				E917A7A717E5452983DBE7C3 /* Release */,
+				97AA5ABE4E724580884BD49B /* MinSizeRel */,
+				8D8930DA5005475FA2D4F3A7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		695DB0DA9FF1455E967BB629 /* Build configuration list for PBXNativeTarget "ciCubeMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDED790E5C5C4A1DBA4102B6 /* Debug */,
+				AC29D114985C4B7CB3C3B95F /* Release */,
+				345D5C55FB9F41AEA4DAE61D /* MinSizeRel */,
+				BD6217BC73F745D5AE226172 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6F102C52AE4F4B79828E7C5B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35D6C3872B9041F6900ABC23 /* Debug */,
+				137D4EDB8BE34B67B8F2B8C6 /* Release */,
+				9BCDC512225D4FADA7BB975F /* MinSizeRel */,
+				EE7449CC63C543F6A495DFE3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DC19EE02E8FC4DF5A1C36B28 /* Build configuration list for PBXProject "GridApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0E54084C8E4341B670A5A3 /* Debug */,
+				3CED1CFB80A94AE69289815E /* Release */,
+				F8F8B1F19BE64AD7AB228BFD /* MinSizeRel */,
+				879E42EEE0BC4ED88EE443E2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 058389ED149A4438B8069410 /* Project object */;
+}
