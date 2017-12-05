@@ -67,7 +67,7 @@ void GridApp::update()
 {
   if(redraws > 0){
     redraws += 1;
-    CI_LOG_I("Redraw " << redraws);
+    // CI_LOG_I("Redraw " << redraws);
 
     mapperB->update([this](){
       gl::clear();
@@ -105,23 +105,32 @@ void GridApp::keyDown( KeyEvent event )
 
 void GridApp::draw()
 {
-  gl::clear( Color( 0, 0, 0 ) );
-  gl::setMatrices( cam );
-
   if(redraws == 0){
 
     double t = getElapsedSeconds();
-    this->drawGrid(t);
 
+    // draw grid scene to cubemap
     mapperRef->update([this, t](){
       gl::clear();
       this->drawGrid(t);
     });
 
-  } else {
-
+    // draw skybox with cubemap texture
+    gl::clear( Color( 0, 0, 0 ) );
+    gl::setMatrices( cam );
     drawSkyBox();
 
+  } else {
+
+    // draw skybox with cubemap texture
+    gl::clear( Color( 0, 0, 0 ) );
+    gl::setMatrices( cam );
+    drawSkyBox();
+
+    // draw equirectangular preview
+    gl::setMatricesWindow( getWindowSize() );
+    gl::ScopedDepth d( false );
+    gl::drawEquirectangular(mapperRef->getFboCubeMap()->getTextureCubeMap(), Rectf(0,0,400,200));
   }
 }
 
