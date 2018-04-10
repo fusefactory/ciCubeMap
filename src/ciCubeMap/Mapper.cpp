@@ -14,6 +14,8 @@ void Mapper::update(std::function<void(void)> drawFunc){
   gl::pushViewport( ivec2( 0, 0 ), mFbo->getSize() );
   // we need to save the current FBO because we'll be calling bindFramebufferFace() below
   gl::context()->pushFramebuffer();
+
+  gl::pushMatrices ();
   for( uint8_t dir = 0; dir < 6; ++dir ) {
     gl::setProjectionMatrix( ci::CameraPersp( mFbo->getWidth(), mFbo->getHeight(), 90.0f, 1, 1000 ).getProjectionMatrix() );
     gl::setViewMatrix( mFbo->calcViewMatrix( GL_TEXTURE_CUBE_MAP_POSITIVE_X + dir, vec3( 0 ) ) );
@@ -22,6 +24,7 @@ void Mapper::update(std::function<void(void)> drawFunc){
     drawFunc();
   }
   // restore the FBO before we bound the various faces of the CubeMapFbo
+  gl::popMatrices();
   gl::context()->popFramebuffer();
   gl::popViewport();
 }
