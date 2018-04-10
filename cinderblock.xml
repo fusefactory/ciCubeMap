@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <cinder>
   <block
-    name="ciCMS"
+    name="ciCubeMap"
     id="it.fusefactory.cubemap"
     git="git@github.com:fusefactory/ciCubeMap.git"
     author="Mark van de Korput at Fuse Factory"
